@@ -21,10 +21,10 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 PATH=$PATH:~/bin
 if [[ $OSTYPE == "darwin"* ]]; then
-	echo MacOS
+	echo ostype osx
 	sed -i '.bak' 's+https://gerrit.googlesource.com/git-repo+https://gerrit-googlesource.lug.ustc.edu.cn/git-repo+g' ~/bin/repo
 else
-	echo Linux
+	echo ostype linux
 	sed -i 's+https://gerrit.googlesource.com/git-repo+https://gerrit-googlesource.lug.ustc.edu.cn/git-repo+g' ~/bin/repo
 fi
 mkdir ~/aosp
