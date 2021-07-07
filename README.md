@@ -6,12 +6,6 @@
 
 直接按顺序输入以下命令即可开始下载aosp
 
-使用国内镜像为  https://gerrit-googlesource.lug.ustc.edu.cn/git-repo
-
-repo目录位置为 用户目录/bin/repo
-
-aosp目录位置为 用户目录/aosp
-
 ```bash
 curl https://raw.githubusercontent.com/myth-china/aospdl/main/aospdl.sh > aospdl.sh
 
@@ -19,3 +13,11 @@ chmod a+x aospdl.sh
 
 ./aospdl.sh
 ```
+
+# 使用须知
+
+使用的国内镜像：https://gerrit-googlesource.lug.ustc.edu.cn/git-repo
+
+repo脚步位置： 用户目录/bin/repo
+
+aosp目录位置： 用户目录/aosp
