@@ -18,6 +18,6 @@ chmod a+x aospdl.sh
 
 使用的国内镜像：https://gerrit-googlesource.lug.ustc.edu.cn/git-repo
 
-repo脚步位置： 用户目录/bin/repo
+repo脚本位置： ~/bin/repo
 
-aosp目录位置： 用户目录/aosp
+aosp目录位置： ~/aosp
