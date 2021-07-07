@@ -7,8 +7,7 @@
 直接按顺序输入以下命令即可开始下载aosp
 
 ```bash
-curl https://raw.githubusercontent.com/myth-china/aospdl/main/aospdl.sh > a
-ospdl.sh
+curl https://raw.githubusercontent.com/myth-china/aospdl/main/aospdl.sh > aospdl.sh
 
 chmod a+x aospdl.sh
 
